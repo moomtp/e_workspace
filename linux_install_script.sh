@@ -9,7 +9,12 @@ sudo apt install python3
 
 sudo snap install chromium
 
+# 安裝vscode
 sudo snap install code --classic
+# 用command 安裝vscode擴充, Ctrl+Shift+P，输入 Shell Command: Install 'code' command in PATH
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools
+
 
 sudo snap install discord # 安裝dis
 
