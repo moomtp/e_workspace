@@ -2,6 +2,10 @@ sudo apt update
 sudo apt upgrade
 sudo apt install snapd
 
+＃ gen ssh key on /.ssh
+ssh-keygen -t ed25519 
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_ed25519
 
 
 sudo apt install git
