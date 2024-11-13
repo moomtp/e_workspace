@@ -2,6 +2,8 @@ sudo apt update
 sudo apt upgrade
 sudo apt install snapd
 
+apt install vim
+
 ＃ gen ssh key on /.ssh
 ssh-keygen -t ed25519 
 eval $(ssh-agent -s)
