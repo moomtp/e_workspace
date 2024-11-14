@@ -11,6 +11,7 @@ ssh-add ~/.ssh/id_ed25519
 
 
 sudo apt install git
+git config --global core.editor "vim"
 sudo apt install python3
 
 sudo snap install chromium
