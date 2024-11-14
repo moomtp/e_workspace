@@ -20,7 +20,8 @@ sudo snap install code --classic
 # 用command 安裝vscode擴充, Ctrl+Shift+P，输入 Shell Command: Install 'code' command in PATH
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
-
+code --install-extension GitHub.vscode-pull-request-github
+code --install-extension vscodevim.vim
 
 sudo snap install discord # 安裝dis
 
@@ -36,7 +37,7 @@ ibus-setup
 ＃ 升級ubuntu
 sudo do-release-upgrade -d
 
-sudo apt install nvidia-driver-<版本>   ＃ for nv
+sudo apt install nvidia-driver-<版本>   ＃ for
 sudo apt install mesa-vulkan-drivers\   ＃ for amd
 
 ＃ for proton 
