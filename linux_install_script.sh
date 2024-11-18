@@ -17,6 +17,8 @@ sudo apt install python3-pip
 
 sudo snap install chromium
 
+snap install obsidian --classic
+
 # 安裝vscode
 sudo snap install code --classic
 # 用command 安裝vscode擴充, Ctrl+Shift+P，输入 Shell Command: Install 'code' command in PATH
