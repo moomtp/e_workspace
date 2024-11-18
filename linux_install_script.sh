@@ -26,6 +26,8 @@ code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension vscodevim.vim
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension shd101wyy.markdown-preview-enhanced
 
 sudo snap install discord # 安裝dis
 
