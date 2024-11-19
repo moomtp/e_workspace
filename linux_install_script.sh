@@ -3,6 +3,9 @@ sudo apt upgrade
 sudo apt install snapd
 
 apt install vim
+apt install zsh -y
+chsh -s $(which zsh)
+
 
 ＃ gen ssh key on /.ssh
 ssh-keygen -t ed25519 
