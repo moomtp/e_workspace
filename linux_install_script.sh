@@ -3,9 +3,30 @@ sudo apt upgrade
 sudo apt install snapd
 
 apt install vim
-apt install zsh -y
-chsh -s $(which zsh)
 
+apt install zsh -y
+chsh -s $(zsh)
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# powerlevel10k主题
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+# zsh-autosuggestions自动提示插件
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# zsh-syntax-highlighting语法高亮插件
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# 更改zshrc文件
+vim ~/.zshrc
+```.zshrc
+# 修改主题
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# 启用插件
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
+```
+zsh
 
 ＃ gen ssh key on /.ssh
 ssh-keygen -t ed25519 
