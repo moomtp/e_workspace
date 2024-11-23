@@ -28,6 +28,8 @@ plugins=(
 ```
 zsh
 
+p10k configure # 重新配置p10k
+
 ＃ gen ssh key on /.ssh
 ssh-keygen -t ed25519 
 eval $(ssh-agent -s)
