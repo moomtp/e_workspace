@@ -1,0 +1,458 @@
+{
+  "main": {
+    "id": "ba837d8b9883caaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "852b87f38e4f9ea2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "415aa0ea37b7b3e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernete/cmd.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cmd"
+            }
+          },
+          {
+            "id": "0c3af8861150495b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernete/kubenate cmd.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kubenate cmd"
+            }
+          },
+          {
+            "id": "88af5a24beb0b011",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernete/架構.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "架構"
+            }
+          },
+          {
+            "id": "dc6637614cb52e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git cmd.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git cmd"
+            }
+          },
+          {
+            "id": "8b37444c0be61be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "docker"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "32ff2686ffbc92ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4dc54d144da873b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c22cea62624af6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "b179430940cba343",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "4ca8f13955738919",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8b94c631ea03ccb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15ae705b49f16272",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "78f51780aba762e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a23573d31fb6d46c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53bc7ccc8157f8c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "kubernete/cmd.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "cmd 的反向連結"
+            }
+          },
+          {
+            "id": "0fd3589a07e04388",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "kubernete/cmd.md"
+              },
+              "icon": "lucide-list",
+              "title": "cmd 的大綱"
+            }
+          },
+          {
+            "id": "8fd98fa0c7926baf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#🌱",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "aa4ee4e9982f2e3b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "9e71f4fc08701240",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "a87480c15c0f339a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "52e4a93f6302bbda",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "619792fa992ead95",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "07b02013bfec4aaf",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "1f3a0d8c3ccf3886",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "9b95ae09abcf4c30",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "74143e161de001d7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "0a059ecd2ecf8780",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "0be7482374ea15ca",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "168347e0477a9818",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "筆記復習序列"
+            }
+          },
+          {
+            "id": "c358c1f5802cb700",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 15
+      },
+      {
+        "id": "12fe96582aa0e06c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff789d6185908a4b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "docker.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5916010438772473,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "docker 的關聯圖"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
+      "workspaces:管理工作區配置": false,
+      "obsidian-spaced-repetition:復習卡片": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "8b37444c0be61be0",
+  "lastOpenFiles": [
+    "git cmd.md",
+    "docker.md",
+    "kubernete/mutipass.md",
+    "kubernete/kubectl cmd.md",
+    "kubernete/kubenate cmd.md",
+    "kubernete/架構.md",
+    "未命名 1.md",
+    "kubernete",
+    "readme.md",
+    "論文.md",
+    "directory_tree.md",
+    "論文架構 (1).md",
+    "論文架構.md",
+    "survey.md",
+    "論文修改note.md",
+    "IDEF0.canvas",
+    "OOAD/ch14. Design Patten.md",
+    "OOAD/Ch10. an overview of UML.md",
+    "OOAD/Ch15. More design patten.md",
+    "Pasted image 20240528165054.png",
+    "Pasted image 20240528093445.png",
+    "Pasted image 20240517170517.png",
+    "OOAD/Ch13 UML sequence diagram.md",
+    "小知識.md",
+    "未命名.canvas",
+    "OOAD/Ch6. source code quality.md",
+    "OOAD/Ch7. databbase design and mormalization.md",
+    "OOAD/Ch8. Data-Oriented Models.md",
+    "OOAD/Ch9. how to find classes and objects.md",
+    "OOAD/Ch11. some OO coding Example.md",
+    "OOAD/Ch12. UML class diagram.md",
+    "OOAD/Why you cannot abuse inheritanace.md",
+    "論文/img/Pasted image 20240219203403.png",
+    "論文/img",
+    "論文/img/Pasted image 20240219204940.png",
+    "論文/參考文獻",
+    "資源回收場",
+    "Untitled.canvas",
+    "TODO.canvas",
+    "論文/img/Pasted image 20240220014049.png",
+    "論文/img/Pasted image 20240219221611.png",
+    "論文/img/Pasted image 20240219221534.png",
+    "論文/img/Pasted image 20240219204139.png",
+    "Untitled",
+    "linux/img/Pasted image 20231002141609.png",
+    "linux/img/lec03",
+    "linux/img",
+    "linux",
+    "論文",
+    "知識圖譜"
+  ]
+}

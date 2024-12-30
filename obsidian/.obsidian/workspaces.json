@@ -1,0 +1,180 @@
+{
+  "workspaces": {
+    "Default Workspace": {
+      "main": {
+        "id": "ba837d8b9883caaf",
+        "type": "split",
+        "children": [
+          {
+            "id": "a3e06a76f8d4ed98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templete/Note 1 -📰️ Templete.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "32ff2686ffbc92ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "f4dc54d144da873b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9c22cea62624af6d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b179430940cba343",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "c8b94c631ea03ccb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "15ae705b49f16272",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "179c25d66aa97365",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "78f51780aba762e5",
+        "type": "split",
+        "children": [
+          {
+            "id": "a23573d31fb6d46c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "53bc7ccc8157f8c8",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Templete/Note 1 -📰️ Templete.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "0fd3589a07e04388",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Templete/Note 1 -📰️ Templete.md"
+                  }
+                }
+              },
+              {
+                "id": "8fd98fa0c7926baf",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#📘",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "12fe96582aa0e06c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ff789d6185908a4b",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Templete/Note 1 -📰️ Templete.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "active": "a3e06a76f8d4ed98"
+    }
+  },
+  "active": "Default Workspace"
+}

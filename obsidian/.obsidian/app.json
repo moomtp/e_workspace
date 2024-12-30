@@ -1,0 +1,14 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "strictLineBreaks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "/",
+  "foldHeading": true,
+  "spellcheck": true,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "fileSortOrder": "byCreatedTimeReverse",
+  "readableLineLength": false
+}

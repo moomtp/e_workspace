@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "ba837d8b9883caaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "dabce5e72870d421",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "電腦視覺/Ch3.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "32ff2686ffbc92ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4dc54d144da873b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c22cea62624af6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b179430940cba343",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8b94c631ea03ccb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15ae705b49f16272",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "179c25d66aa97365",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "78f51780aba762e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a23573d31fb6d46c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53bc7ccc8157f8c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "電腦視覺/Ch3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0fd3589a07e04388",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "電腦視覺/Ch3.md"
+              }
+            }
+          },
+          {
+            "id": "8fd98fa0c7926baf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#python",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bf4ab25633c98600",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "aa4b893fdba15590",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff90542e2fd16dbc",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "12fe96582aa0e06c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff789d6185908a4b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "電腦視覺/Ch3.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5916010438772473,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "dabce5e72870d421",
+  "lastOpenFiles": [
+    "軟工實務/W4.md",
+    "電腦視覺/W4.md",
+    "電腦視覺/w3.md",
+    "電腦視覺/W2.md",
+    "未命名.md",
+    "Templete/Computer vision.md",
+    "Templete/軟工.md",
+    "軟工實務/W3.md",
+    "Pasted image 20220926101927.png",
+    "Pasted image 20220926102044.png"
+  ]
+}
