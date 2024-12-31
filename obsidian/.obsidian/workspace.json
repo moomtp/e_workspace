@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker.md",
+                "file": "kubernete/架構.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker"
+              "title": "架構"
             }
           }
         ],
@@ -361,7 +361,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "docker.md",
+                "file": "kubernete/架構.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -389,7 +389,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "docker 的關聯圖"
+              "title": "架構 的關聯圖"
             }
           }
         ]
@@ -412,10 +412,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a4e2a847f2feaa4",
+  "active": "8b37444c0be61be0",
   "lastOpenFiles": [
-    "git cmd.md",
     "docker.md",
+    "git cmd.md",
     "kubernete/mutipass.md",
     "kubernete/kubectl cmd.md",
     "kubernete/kubenate cmd.md",
