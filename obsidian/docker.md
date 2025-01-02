@@ -13,3 +13,8 @@ docker push <username>/<repository>:<tag>
 docker ps
 ```
 
+運行
+```
+docker run -p 5000:5000 <app-name>
+```
+
