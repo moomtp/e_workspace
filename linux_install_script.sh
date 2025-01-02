@@ -3,6 +3,9 @@ sudo apt upgrade
 sudo apt install snapd
 
 apt install vim
+sudo snap install nvim --classic
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
 
 apt install zsh -y
 chsh -s $(zsh)
