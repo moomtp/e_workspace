@@ -347,9 +347,19 @@
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
+          },
+          {
+            "id": "b2a7d77594b9f077",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "筆記復習序列"
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       },
       {
         "id": "12fe96582aa0e06c",
