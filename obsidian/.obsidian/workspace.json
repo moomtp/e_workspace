@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker.md",
+                "file": "kubernete/mutipass.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker"
+              "title": "mutipass"
             }
           }
         ]
@@ -310,9 +310,19 @@
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
+          },
+          {
+            "id": "0c3c87231a1ae25f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "筆記復習序列"
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       },
       {
         "id": "12fe96582aa0e06c",
@@ -324,7 +334,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "docker.md",
+                "file": "kubernete/mutipass.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -352,7 +362,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "docker 的關聯圖"
+              "title": "mutipass 的關聯圖"
             }
           }
         ]
@@ -377,15 +387,15 @@
   },
   "active": "8b37444c0be61be0",
   "lastOpenFiles": [
-    "kubernete/架構.md",
-    "docker.md",
-    "git cmd.md",
-    "kubernete/mutipass.md",
-    "kubernete/kubectl cmd.md",
     "kubernete/kubenate cmd.md",
+    "kubernete/kubectl cmd.md",
+    "readme.md",
+    "git cmd.md",
+    "docker.md",
+    "kubernete/架構.md",
+    "kubernete/mutipass.md",
     "未命名 1.md",
     "kubernete",
-    "readme.md",
     "論文.md",
     "directory_tree.md",
     "論文架構 (1).md",
