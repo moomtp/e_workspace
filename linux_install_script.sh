@@ -2,6 +2,12 @@ sudo apt update
 sudo apt upgrade
 sudo apt install snapd
 
+# 安裝ansible
+sudo apt install -y software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install -y ansible
+
+
 apt install vim
 sudo snap install nvim --classic
 git clone https://github.com/LazyVim/starter ~/.config/nvim
