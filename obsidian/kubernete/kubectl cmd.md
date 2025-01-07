@@ -1,7 +1,8 @@
 資源創建與運行
 ```
 
-
+# 查看當前的集群種類
+kubectl config current-context
 
 # 建立並運行指定的映像
 
