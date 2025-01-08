@@ -64,12 +64,12 @@ multipass exec k3s-worker2 -- bash -c "mkdir -p ~/.ssh && echo '$PUBLIC_KEY' >> 
 
 安裝k3s至不同節點上（從master到worker)
 ``` 
-(on k3s-master)
-curl -sfL https://get.k3s.io | sh -
 
-(on ubuntu)
-TOKEN=$(multipass exec k3s sudo cat /var/lib/rancher/k3s/server/node-token)
+multipass exec k3s-master curl -sfL https://get.k3s.io | sh -
+
+TOKEN=$(multipass exec k3s-master sudo cat /var/lib/rancher/k3s/server/node-token)
 MASTER_IP=$(multipass info k3s | grep IPv4 | awk '{print $2}')
+
  for f in 1 2; do  
      multipass exec k3s-worker$f -- bash -c "curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn K3S_URL=\"https://$MASTER_IP:6443\" K3S_TOKEN=\"$TOKEN\" sh -"  
  done
