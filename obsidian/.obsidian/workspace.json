@@ -362,12 +362,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "7def2430a5e40618",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 23
       },
       {
         "id": "12fe96582aa0e06c",
@@ -433,9 +443,9 @@
   "active": "da9a962ba19dd4c5",
   "lastOpenFiles": [
     "kubernete/kubectl cmd.md",
-    "kubernete/mutipass.md",
     "kubernete/kubenate cmd.md",
     "ansible cmd.md",
+    "kubernete/mutipass.md",
     "readme.md",
     "git cmd.md",
     "docker.md",
