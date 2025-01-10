@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernete/mutipass.md",
+                "file": "ansible cmd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mutipass"
+              "title": "ansible cmd"
             }
           }
         ],
@@ -375,9 +375,19 @@
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
+          },
+          {
+            "id": "b1befe0409dd1ef0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "筆記復習序列"
+            }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       },
       {
         "id": "12fe96582aa0e06c",
@@ -389,7 +399,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kubernete/mutipass.md",
+                "file": "ansible cmd.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -417,14 +427,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "mutipass 的關聯圖"
+              "title": "ansible cmd 的關聯圖"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -442,13 +453,13 @@
   },
   "active": "da9a962ba19dd4c5",
   "lastOpenFiles": [
+    "docker.md",
+    "kubernete/mutipass.md",
     "ansible cmd.md",
     "kubernete/kubectl cmd.md",
     "kubernete/kubenate cmd.md",
-    "kubernete/mutipass.md",
     "readme.md",
     "git cmd.md",
-    "docker.md",
     "kubernete/架構.md",
     "未命名 1.md",
     "kubernete",
