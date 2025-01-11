@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernete/mutipass.md",
+                "file": "ansible cmd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mutipass"
+              "title": "ansible cmd"
             }
           }
         ],
@@ -372,12 +372,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "筆記復習序列"
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
             }
           },
           {
             "id": "b1befe0409dd1ef0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "5b0950be3abe8c1e",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -387,7 +397,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       },
       {
         "id": "12fe96582aa0e06c",
@@ -453,9 +463,9 @@
   },
   "active": "da9a962ba19dd4c5",
   "lastOpenFiles": [
+    "kubernete/mutipass.md",
     "ansible cmd.md",
     "docker.md",
-    "kubernete/mutipass.md",
     "kubernete/kubectl cmd.md",
     "kubernete/kubenate cmd.md",
     "readme.md",
