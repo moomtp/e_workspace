@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker.md",
+                "file": "kubernete/kubectl cmd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker"
+              "title": "kubectl cmd"
             }
           }
         ],
@@ -507,10 +507,10 @@
   },
   "active": "2b7d41d28d169b87",
   "lastOpenFiles": [
+    "docker.md",
     "kubernete/kubectl cmd.md",
     "other cmd.md",
     "ansible cmd.md",
-    "docker.md",
     "git cmd.md",
     "kubernete/kubenate cmd.md",
     "kubernete/架構.md",
