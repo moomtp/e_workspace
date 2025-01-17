@@ -18,3 +18,8 @@ docker ps
 docker run -p 5000:5000 <app-name>
 ```
 
+運行時使用不同變數來覆蓋原本的全域變數
+
+```
+docker run -e GLOBAL_VAR=new.global.var
+```
