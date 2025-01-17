@@ -39,6 +39,11 @@ kubectl apply -f (-k DIRECTORY | -f FILENAME | stdin)
 # 根據 nginx.yaml 配置文件配置資源
 
 kubectl apply -f nginx.yaml
+
+
+# 創建一個臨時的pod用來測試
+
+kubectl run dns-test --rm -it --image=busybox --restart=Never -- sh
 ```
 
 查看info

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernete/架構.md",
+                "file": "kubernete/kubectl cmd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "架構"
+              "title": "kubectl cmd"
             }
           }
         ],
@@ -426,12 +426,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "49e2bacaeefd39c6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       },
       {
         "id": "12fe96582aa0e06c",
@@ -498,13 +508,13 @@
   "active": "2b7d41d28d169b87",
   "lastOpenFiles": [
     "other cmd.md",
-    "kubernete/kubectl cmd.md",
-    "kubernete/kubenate cmd.md",
-    "docker.md",
-    "kubernete/mutipass.md",
-    "kubernete/架構.md",
-    "git cmd.md",
     "ansible cmd.md",
+    "docker.md",
+    "git cmd.md",
+    "kubernete/kubenate cmd.md",
+    "kubernete/kubectl cmd.md",
+    "kubernete/架構.md",
+    "kubernete/mutipass.md",
     "readme.md",
     "未命名 1.md",
     "kubernete",
