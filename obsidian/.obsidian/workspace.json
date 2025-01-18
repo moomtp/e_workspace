@@ -296,8 +296,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "筆記復習序列"
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
             }
           },
           {
@@ -436,12 +436,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "bf7e190e04cea00e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 29
       },
       {
         "id": "12fe96582aa0e06c",
@@ -504,7 +514,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c358c1f5802cb700",
+  "active": "bf7e190e04cea00e",
   "lastOpenFiles": [
     "kubernete/kubectl cmd.md",
     "docker.md",
