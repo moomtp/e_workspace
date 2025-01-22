@@ -449,9 +449,19 @@
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
+          },
+          {
+            "id": "5e7561bec5dc9751",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "筆記復習序列"
+            }
           }
         ],
-        "currentTab": 29
+        "currentTab": 30
       },
       {
         "id": "12fe96582aa0e06c",
@@ -514,7 +524,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf7e190e04cea00e",
+  "active": "5e7561bec5dc9751",
   "lastOpenFiles": [
     "kubernete/kubectl cmd.md",
     "docker.md",
