@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernete/架構.md",
+                "file": "ansible cmd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "架構"
+              "title": "ansible cmd"
             }
           }
         ],
@@ -496,7 +496,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kubernete/架構.md",
+                "file": "ansible cmd.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -524,14 +524,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "架構 的關聯圖"
+              "title": "ansible cmd 的關聯圖"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -547,15 +548,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8390197b861920fd",
+  "active": "2b7d41d28d169b87",
   "lastOpenFiles": [
+    "kubernete/架構.md",
     "kubernete/kubectl cmd.md",
     "docker.md",
     "other cmd.md",
     "ansible cmd.md",
     "git cmd.md",
     "kubernete/kubenate cmd.md",
-    "kubernete/架構.md",
     "kubernete/mutipass.md",
     "readme.md",
     "未命名 1.md",
