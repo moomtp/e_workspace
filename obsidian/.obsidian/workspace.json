@@ -69,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
@@ -108,7 +109,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "標籤"
@@ -456,8 +459,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "筆記復習序列"
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
             }
           },
           {
@@ -469,9 +472,19 @@
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
+          },
+          {
+            "id": "8390197b861920fd",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "筆記復習序列"
+            }
           }
         ],
-        "currentTab": 31
+        "currentTab": 32
       },
       {
         "id": "12fe96582aa0e06c",
@@ -534,7 +547,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66b8a3208a8b1371",
+  "active": "8390197b861920fd",
   "lastOpenFiles": [
     "kubernete/kubectl cmd.md",
     "docker.md",
