@@ -23,3 +23,26 @@ docker run -p 5000:5000 <app-name>
 ```
 docker run -e GLOBAL_VAR=new.global.var
 ```
+
+
+### 多平台映像檔建構(buildx)
+
+多平台建構範例
+```
+docker buildx build --platform linux/amd64,linux/arm64 -t moomtp/res-assi-server:latest --push .
+
+```
+
+啟用服務
+```
+docker buildx install
+docker buildx --user
+```
+
+安裝buildx
+```
+wget https://github.com/docker/buildx/releases/download/v0.13.1/buildx-v0.13.1.linux-amd64
+mkdir -p ~/.docker/cli-plugins
+mv buildx-v0.13.1.linux-amd64 ~/.docker/cli-plugins/docker-buildx
+chmod +x ~/.docker/cli-plugins/docker-buildx
+```
