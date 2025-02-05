@@ -513,12 +513,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "84e54ade493770db",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 35
       },
       {
         "id": "12fe96582aa0e06c",
@@ -582,7 +592,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17439067ca2777d1",
+  "active": "84e54ade493770db",
   "lastOpenFiles": [
     "kubernete/架構.md",
     "docker.md",
