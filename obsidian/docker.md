@@ -36,13 +36,14 @@ docker buildx build --platform linux/amd64,linux/arm64 -t moomtp/res-assi-server
 啟用服務
 ```
 docker buildx install
+docker buildx create --use
 docker buildx --user
 ```
 
 安裝buildx
 ```
 wget https://github.com/docker/buildx/releases/download/v0.13.1/buildx-v0.13.1.linux-amd64
-mkdir -p ~/.docker/cli-plugins
+mkdir -p home/e/.docker/cli-plugins
 mv buildx-v0.13.1.linux-amd64 ~/.docker/cli-plugins/docker-buildx
 chmod +x ~/.docker/cli-plugins/docker-buildx
 ```
