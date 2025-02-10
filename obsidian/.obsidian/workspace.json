@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker.md",
+                "file": "other cmd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker"
+              "title": "other cmd"
+            }
+          },
+          {
+            "id": "d9037d4d305e5bd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nginx.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nginx"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -543,12 +557,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "247de6657d4922b4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
           }
         ],
-        "currentTab": 37
+        "currentTab": 38
       },
       {
         "id": "12fe96582aa0e06c",
@@ -612,15 +636,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17439067ca2777d1",
+  "active": "d9037d4d305e5bd2",
   "lastOpenFiles": [
+    "other cmd.md",
+    "nginx.md",
+    "kubernete/架構.md",
+    "docker.md",
     "git cmd.md",
     "readme.md",
     "ansible cmd.md",
-    "other cmd.md",
     "kubernete/mutipass.md",
-    "kubernete/架構.md",
-    "docker.md",
     "kubernete/kubenate cmd.md",
     "kubernete/kubectl cmd.md",
     "未命名 1.md",
@@ -645,7 +670,6 @@
     "OOAD/Ch7. databbase design and mormalization.md",
     "OOAD/Ch8. Data-Oriented Models.md",
     "OOAD/Ch9. how to find classes and objects.md",
-    "OOAD/Ch11. some OO coding Example.md",
     "論文/img/Pasted image 20240219203403.png",
     "論文/img",
     "論文/img/Pasted image 20240219204940.png",
