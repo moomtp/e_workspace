@@ -56,6 +56,7 @@ docker run --name my-nginx -d \
 
 #### 配置SSL文件
 
+###### 自生成ssl檔案
 生成ssl所需文件
 ```
 # 生成private key
@@ -66,7 +67,24 @@ openssl req -new -key private.key -out cert.csr
 openssl x509 -req -in cert.csr -out cacert.pem -signkey private.key
 ```
 
+###### 用let's Encrypt 生成ssl
+```
+sudo apt update
+sudo apt install certbot python3-certbot-nginx  # 如果使用 Nginx
+sudo certbot --nginx  # 如果使用 Nginx
+sudo certbot certificates
+sudo certbot renew --dry-run
+```
+
 修改nginx的配置
+```
+
+```
+
+
+### 建立反向代理
+
+在site中添加
 ```
 
 ```
