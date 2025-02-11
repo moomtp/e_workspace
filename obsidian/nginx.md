@@ -45,6 +45,15 @@ nginx
 ```
 
 
+```
+docker run --name my-nginx -d \
+  -p 80:80 \
+  -v ~/my-nginx/conf/nginx.conf:/etc/nginx/nginx.conf \
+  -v ~/my-nginx/sites-enabled:/etc/nginx/sites-enabled \
+  -v ~/my-nginx/sites-available:/etc/nginx/sites-available \
+  nginx
+```
+
 #### 配置SSL文件
 
 生成ssl所需文件
