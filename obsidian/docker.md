@@ -24,7 +24,10 @@ docker run -p 5000:5000 <app-name>
 docker run -e GLOBAL_VAR=new.global.var
 ```
 
-
+移除
+```
+docker rm -f <app-name>
+```
 ### 多平台映像檔建構(buildx)
 
 多平台建構範例
