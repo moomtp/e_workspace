@@ -48,10 +48,11 @@ nginx
 ```
 docker run --name my-nginx -d \
   -p 80:80 \
+  -p 443:443 \
   -v ~/my-nginx/conf/nginx.conf:/etc/nginx/nginx.conf \
   -v ~/my-nginx/conf/sites-enabled:/etc/nginx/sites-enabled \
   -v ~/my-nginx/conf/sites-available:/etc/nginx/sites-available \
-  - v ~/my-nginx/ssl_pems:/etc/nginx/ssl_pems \
+  -v ~/my-nginx/ssl_pems:/etc/nginx/ssl_pems \
   nginx
 ```
 
