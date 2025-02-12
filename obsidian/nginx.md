@@ -58,7 +58,7 @@ docker run --name my-nginx -d \
 
 #### 配置SSL文件
 
-###### 自生成ssl檔案
+##### 本機生成ssl檔案
 生成ssl所需文件
 ```
 # 生成private key
@@ -69,24 +69,64 @@ openssl req -new -key private.key -out cert.csr
 openssl x509 -req -in cert.csr -out cacert.pem -signkey private.key
 ```
 
-###### 用let's Encrypt 生成ssl
+##### 用let's Encrypt 生成ssl
+
+###### 安裝
 ```
 sudo apt update
 sudo apt install certbot python3-certbot-nginx  # 如果使用 Nginx
+```
+
+###### 自動套用
+```
 sudo certbot --nginx  # 如果使用 Nginx
 sudo certbot certificates
 sudo certbot renew --dry-run
 ```
 
+###### 手動套用
+``` (/etc/letsencrypt/live/example.com/)
+// 通常
+sudo certbot certonly --manual --preferred-challenges dns -d "example.com"
+ 
+// 通配符(wildcard)版本
+sudo certbot certonly --manual --preferred-challenges dns -d "*.example.com" -d "example.com" 
+
+```
 修改nginx的配置
 ```
+server {
+	listen 443 ssl;
+	#listen	127.0.0.1:443;
+	#server_name	localhost;
+	server_name	_ ehome.zapto.org;
 
+	##
+	# SSL config
+	##
+
+	ssl_certificate /etc/nginx/ssl_pems/fullchain3.pem;
+	ssl_certificate_key /etc/nginx/ssl_pems/privkey3.pem;
+
+	ssl_session_timeout 5m;
+	ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
+	ssl_ciphers 'TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384';
+	ssl_prefer_server_ciphers on;
+}
 ```
 
 
 ### 建立反向代理
 
-在site中添加
-```
+###### 在site中
 
+```
+upstream jenkins {
+	server localhost:8080;
+}
+server {
+	location /jenkins{
+		proxy_pass http://jenkins;
+	}
+}
 ```

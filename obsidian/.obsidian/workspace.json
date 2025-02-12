@@ -597,12 +597,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "9a7bf0bc50b05800",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
           }
         ],
-        "currentTab": 41
+        "currentTab": 42
       },
       {
         "id": "12fe96582aa0e06c",
@@ -666,7 +676,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9037d4d305e5bd2",
+  "active": "9a7bf0bc50b05800",
   "lastOpenFiles": [
     "docker.md",
     "ansible cmd.md",
