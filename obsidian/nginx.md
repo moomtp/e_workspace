@@ -18,7 +18,7 @@ nginx -s quit  // 停止nginx
 
 ```
 docker pull nginx
-docker run --name my-nginx -d -p 80:80 nginx
+docker run --name my-nginx -d -p 80:80 -p 443:443 nginx
 ```
 
 创建一个本地目录存放 Nginx 配置文件：
@@ -49,8 +49,9 @@ nginx
 docker run --name my-nginx -d \
   -p 80:80 \
   -v ~/my-nginx/conf/nginx.conf:/etc/nginx/nginx.conf \
-  -v ~/my-nginx/sites-enabled:/etc/nginx/sites-enabled \
-  -v ~/my-nginx/sites-available:/etc/nginx/sites-available \
+  -v ~/my-nginx/conf/sites-enabled:/etc/nginx/sites-enabled \
+  -v ~/my-nginx/conf/sites-available:/etc/nginx/sites-available \
+  - v ~/my-nginx/ssl_pems:/etc/nginx/ssl_pems \
   nginx
 ```
 
