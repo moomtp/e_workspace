@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx.md",
+                "file": "kubernete/架構.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nginx"
+              "title": "架構"
             }
           }
         ],
@@ -676,12 +676,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a7bf0bc50b05800",
+  "active": "d9037d4d305e5bd2",
   "lastOpenFiles": [
+    "nginx.md",
     "docker.md",
     "ansible cmd.md",
     "other cmd.md",
-    "nginx.md",
     "kubernete/架構.md",
     "git cmd.md",
     "readme.md",

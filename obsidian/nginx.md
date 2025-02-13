@@ -118,7 +118,7 @@ server {
 
 ### 建立反向代理
 
-###### 在site中
+###### 更改sites-available的default
 
 ```
 upstream jenkins {
@@ -127,6 +127,22 @@ upstream jenkins {
 server {
 	location /jenkins{
 		proxy_pass http://jenkins;
+	}
+}
+```
+
+如果是網頁
+
+```
+server {
+	location /login{
+		proxy_pass http://192.168.1.106:30030;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection "Upgrade";
+		proxy_set_header Host $host;
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 	}
 }
 ```
