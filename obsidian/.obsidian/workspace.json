@@ -76,9 +76,21 @@
               "icon": "lucide-file",
               "title": "架構"
             }
+          },
+          {
+            "id": "5b25b68c8f760531",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -637,12 +649,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "fb527ba4d382d2bc",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "f2ddc9c5308cb1c0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
           }
         ],
-        "currentTab": 45
+        "currentTab": 47
       },
       {
         "id": "12fe96582aa0e06c",
@@ -654,7 +686,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kubernete/kubectl cmd.md",
+                "file": "kubernete/架構.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -682,15 +714,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "kubectl cmd 的關聯圖"
+              "title": "架構 的關聯圖"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -706,7 +737,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e09bb702691c021",
+  "active": "f2ddc9c5308cb1c0",
   "lastOpenFiles": [
     "nginx.md",
     "kubernete/kubectl cmd.md",
