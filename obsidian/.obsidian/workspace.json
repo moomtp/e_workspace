@@ -81,12 +81,14 @@
             "id": "5b25b68c8f760531",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "nginx.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "nginx"
             }
           }
         ],
@@ -686,7 +688,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kubernete/架構.md",
+                "file": "nginx.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -714,7 +716,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "架構 的關聯圖"
+              "title": "nginx 的關聯圖"
             }
           }
         ]
@@ -737,8 +739,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2ddc9c5308cb1c0",
+  "active": "5b25b68c8f760531",
   "lastOpenFiles": [
+    "pic",
     "nginx.md",
     "kubernete/kubectl cmd.md",
     "other cmd.md",
@@ -770,7 +773,6 @@
     "OOAD/Ch6. source code quality.md",
     "OOAD/Ch7. databbase design and mormalization.md",
     "OOAD/Ch8. Data-Oriented Models.md",
-    "OOAD/Ch9. how to find classes and objects.md",
     "論文/img/Pasted image 20240219203403.png",
     "論文/img",
     "論文/img/Pasted image 20240219204940.png",
