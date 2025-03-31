@@ -674,9 +674,19 @@
               "icon": "SpacedRepIcon",
               "title": "筆記復習序列"
             }
+          },
+          {
+            "id": "05df5a5c56de7bc3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "筆記復習序列"
+            }
           }
         ],
-        "currentTab": 47
+        "currentTab": 48
       },
       {
         "id": "12fe96582aa0e06c",
@@ -739,7 +749,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b25b68c8f760531",
+  "active": "05df5a5c56de7bc3",
   "lastOpenFiles": [
     "pic",
     "nginx.md",
