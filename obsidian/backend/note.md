@@ -55,5 +55,45 @@ Flask(__name__,
 
 
 
+### HTTPS request
+
+接收前端的請求並處理相關資訊（request）
+###### request基本的資訊 :
+- method : 請求方法
+- scheme : 通訊協定
+- host : 主機名稱
+- path: 路徑
+- url : 完整網址
+###### request header常見的資訊
+- user-agent : 使用者瀏覽器跟作業系統
+- accept-language : 使用者使用的語言(語言偏好)
+- referrer : 如果有從其他網站轉來的，母網址會放這(引薦網址)
+(header不一定必要也可以連線
+
+拆解request物件
+```
+from flask import request
+
+@app.route("/")
+def index():
+	print("請求方法", request.method)
+	print("通訊協定", request.scheme)
+	print("通訊協定", request.headers.get("user-agent"))
+	lang = request.headers.get("accept-language")
+	if lang.startswith("en"):
+		print("is en user")
+	
+```
+
+語言偏好可以在瀏覽器裡面設定
+
+### 要求字串query string
+
+在網址最後放的
+?q=test&fr=yfp-search-sb
+
+格式為
+?參數名稱1=資料1＆參數名稱2=資料2
+
 
 

@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/note.md",
+                "file": "kubernete/kubectl cmd.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "kubectl cmd"
             }
           }
         ]
@@ -34,8 +36,11 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
-          }
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "檔案瀏覽器"
         }
       },
       {
@@ -50,7 +55,9 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "搜尋"
         }
       },
       {
@@ -60,8 +67,12 @@
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
-            "useHierarchy": true
-          }
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "標籤"
         }
       },
       {
@@ -73,7 +84,9 @@
             "sortOrder": "frequency",
             "showSearch": false,
             "searchQuery": ""
-          }
+          },
+          "icon": "lucide-archive",
+          "title": "所有屬性"
         }
       },
       {
@@ -81,7 +94,9 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "書籤"
         }
       }
     ],
@@ -97,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "backend/note.md",
+            "file": "kubernete/kubectl cmd.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +120,9 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "反向連結"
         }
       },
       {
@@ -114,8 +131,13 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "backend/note.md"
-          }
+            "file": "kubernete/kubectl cmd.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大綱"
         }
       },
       {
@@ -123,7 +145,9 @@
         "type": "leaf",
         "state": {
           "type": "review-queue-list-view",
-          "state": {}
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
         }
       },
       {
@@ -131,7 +155,29 @@
         "type": "leaf",
         "state": {
           "type": "calendar",
-          "state": {}
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      },
+      {
+        "id": "1459fabec84e0245",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "c23706dca8c2d8c8",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "SpacedRepIcon",
+          "title": "筆記復習序列"
         }
       }
     ],
@@ -153,8 +199,9 @@
   },
   "active": "64c76757984c7ea4",
   "lastOpenFiles": [
-    "pic",
     "backend/note.md",
+    "kubernete/kubectl cmd.md",
+    "pic",
     "backend"
   ]
 }
