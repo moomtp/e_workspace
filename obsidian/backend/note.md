@@ -95,5 +95,286 @@ def index():
 格式為
 ?參數名稱1=資料1＆參數名稱2=資料2
 
+為前端 to 後端的請求
+
+後端範例
+```
+data = request.args.get("max", None)
+```
+
+get的第二個參數是default值
 
 
+### flask 中的response
+
+response 是 後端to前端的方式
+
+###### 舉例
+- 直接 return字串
+` return "hello"`
+- 回傳json字典(dumps會把dic轉成str)
+```
+字典 = {key1 : val1,
+		key2 : val2
+		}
+return json.dumps(字典)
+
+```
+- 重新導向
+```
+from flase import redirect
+
+# 導向到特定網址
+return redirect(網址)
+# 導至主頁面的的分頁下
+return redirect("/分頁/")
+
+```
+
+###### 補充
+json.dumps(ensure_ascii=False)
+不用ascii而改成使用UTF-8編碼
+
+### Template engine(樣版引擎)
+
+template engine也是response的一種
+
+優點
+- 方便撰寫複雜的前端城市
+- 方便在回應中動態代入需要的資料
+
+樣版檔案都在templates子資料夾下
+當要retrun的時候會使用
+`render_templates(檔案路徑)`
+
+利用{{動態資料名稱}}的方式回傳需要的資料
+
+templates裡面通常都是放前端的東西
+
+用這樣的方式可以有效decouple
+###### 範例
+```
+templates\index_info
+
+<h3> 您好,{{name}} </h3>
+
+```
+
+```
+app.py
+
+from flask import render_template
+
+@app.route("/")
+def index():
+	return render_template("index", name="小明")
+```
+
+這樣就可以在後端回傳時動態帶入資料
+並將前端的資料渲染完後傳給使用者
+
+### 超連結與圖片
+為前後端互動的一種
+
+網址是前後端互動的關鍵，使用超連結可以讓使用者與網站的互動變好(不用輸入網址)
+
+呈現網站圖片也是使用連結的方式傳送(放在static_folder裡面的？)
+
+超連結跟圖片的範例
+```
+**templates/index.html**
+
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>hello </title>
+</head>
+<body>
+	<h3> main page </h3>
+	<a  href="http://127.0.0.1:3000/page"> 完整路徑連結</a> 
+	<a  href="/page"> 相對路徑連結</a> 
+	<br/>
+	<img src="/pic.png" />
+	
+</body>
+</html>
+
+```
+
+
+```
+app.py
+
+@app.route("/")
+def index():
+	return render_template("index.html")
+
+@app.route("/page")
+	return render_template("page.html")
+
+
+
+```
+
+可以用F12的開發人員工具(Network)看到網頁使用第二次互動，用url的方式載入網頁中的pic.png
+
+### 前後端互動-表單(form)
+
+表單 ： 使用者可以輸入資料，並送到後端的介面, 跟網址與超連結不同
+
+通常前端會寫成
+```
+<from action = "網址路徑">
+<input type="text" name="data" />
+<button> Btn </button>
+</from>
+```
+點擊就會把字串資料就會送到後端了
+
+後端對應的:
+```
+@app.route("網址路徑")
+def handle():
+	input=req.args.get("data","")
+	retrun render_template("result.html", data=data)
+	
+```
+
+### 連線方法 ： GET, POST
+
+如果使用POST連線到後端的話, 後端要設定method=["POST"]
+
+使用POST的話, 前端的data不會放在網址中, 要使用request.form["data"]的方式取得資料
+
+POST會比GET安全 , 如帳號密碼等建議用POST傳
+
+
+前端
+```
+<form action="/cal" method=POST>
+	btn <input type="text"  name="max" />
+</form>
+```
+
+後端
+```
+@app.route("/cal", methods=["POST"])
+def calculate():
+	maxNum = request.form["max"]
+	maxNum = int(maxNum)
+	ret = 1 + maxNum
+
+	return render_template("result.html, data=ret)
+	
+
+```
+
+
+用瀏覽器的 dev tools可以看請求類別(在header裡面)
+
+
+### 使用者狀態管理(Session)
+
+每次連線之間都是完全獨立的
+
+因此需要管理使用者狀態
+-> 讓後端可以記住使用者狀態
+
+後端會建立seesion來保存資料, 之後後端可以從session取得資料
+
+前端:
+```
+
+```
+
+後端：
+```
+from flask import session
+app.secret_key="a;ow9gj09j1"
+
+@app.route("/hello")
+def hello():
+	name = req.args.get("name","")
+	session["username"] = name
+	return "hello" + name
+
+@app.rout("/other_url", "")
+def hi():
+	return 又是你 + session["username"]
+```
+
+
+### 資料庫簡介 DBMS
+
+將所有資料進行中心化, 標準化 , 程式化的資料管理系統讓不同使用者可以用不同的中介程式(Java, python, ...)來獲取資料庫的資料
+
+關聯式資料庫 : SQL, mySQL
+
+非關聯式資料庫 : MongeDB, BigTable, Cassandra
+
+資料庫是有限資源，後端要負責接受第一線海量的前端請求
+
+### MongoDB簡介
+
+特點 ： 
+JSON格式友善
+簡潔的文件模型
+容易水平擴展
+
+
+流程 ： 
+1. 註冊
+2. 建立組織
+3. 建立專案
+4. 建立存取權限
+5. 建立叢集
+6. test (用python連線到mongoDB)
+
+安裝時使用
+` pip install pymonge[srv] `
+安裝mangoDB
+
+連線前要去cluster裡面使用connect to MyDB來設定使用的程式語言, 他會給範例直接paste到code中就好
+
+連線範例
+```
+import pymongo
+
+連線到mangoDB
+client=pymonge.MongoClient("mongodb+srv://DB_USER:DB_PASSWD@)
+
+# 選擇資料庫
+db = client.myDB
+
+# 選擇集合(users)
+collection=db.users 
+
+# 把新資料放到集合中(json格式)
+collection.insert_one({
+	"name" : "我",
+	"gender" : "男"
+})
+print("資料新增成功")
+
+```
+
+完成後可以到mangoDB的collections看資料有沒有被新增
+
+
+###  資料庫結構
+
+MangoDB分三層
+- Database : 不同的database, 可用於分類不同來源的資料(不同網站)
+- Colletion : 資料分類(會員資料, 文章資料..等)
+- Document : 最終資料的存放形式
+
+```
+# 選擇db
+db = client.DB1
+# 選擇collection
+collection=db.users
+# 插入document
+collection.insert_one(JSON_DATA)
+```
+
+### 新增資料

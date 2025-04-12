@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernete/kubectl cmd.md",
+                "file": "backend/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kubectl cmd"
+              "title": "note"
             }
           }
         ]
@@ -176,6 +176,66 @@
         "state": {
           "type": "review-queue-list-view",
           "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "8e5338beca37038b",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "a9524123201241a6",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "fc71de51a6b6374f",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "caecb60e7c6e85de",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "4000194ed676b8be",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "f5ee63a7258eda49",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
           "icon": "SpacedRepIcon",
           "title": "筆記復習序列"
         }
@@ -197,10 +257,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64c76757984c7ea4",
+  "active": "f5ee63a7258eda49",
   "lastOpenFiles": [
-    "backend/note.md",
     "kubernete/kubectl cmd.md",
+    "backend/note.md",
     "pic",
     "backend"
   ]
