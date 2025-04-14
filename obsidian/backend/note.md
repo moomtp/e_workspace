@@ -378,3 +378,225 @@ collection.insert_one(JSON_DATA)
 ```
 
 ### 新增資料
+
+##### 新增單筆方法
+集合.insert_one(資料)
+
+新增並取得新增的資料的id
+```
+collection=db.website
+result=collection.insert_one({
+	"email" : "test@test.com"
+	"password" : "test"
+})
+print(result.inserted_id)
+```
+
+
+##### 新增多筆方法
+集合.insert_many([資料1, 資料2, ...])
+
+
+### mongoDB取得資料
+
+##### 取得單一文件資料
+集合.find_one()
+
+```
+
+collection=db.website
+# 取得第一筆資料
+data=collection.find_one()
+print(data)
+```
+
+
+```
+from bson.objectid import ObjectId
+
+# 取得對應的資料
+collection=db.website
+data=collection.find_one(ObjectId(編號))
+
+print(data)
+```
+
+##### 取得欄位資料
+文件資料["欄位名稱"]
+```
+data = collection.find_one()
+print(data["name"])
+```
+
+
+##### 取得所有文件資料
+集合.find()
+
+```
+cursor=collection.find()
+print(cursor) # cursor物件的敘述
+
+for doc in cursor:
+	print(doc)
+```
+
+
+### mongoDB 更新資料
+
+##### 更新一筆
+集合.update_one(條件, 更新的資訊)
+
+```
+collection=db.website
+collection.update_one({
+	"email":"test@com"
+	},
+	{
+		"$set":{
+			"password":"testtest"
+		}
+	}
+
+)
+```
+
+##### 更新多筆資料
+集合.update_many(條件,更新資訊)
+
+##### 更新的方式
+使用$set 覆蓋/新增欄位
+
+使用$inc加減數字欄位
+```
+collection.update_one({
+	"email":"test@com"
+	},
+	{
+		"$inc":{
+			"level":"4"
+		}
+	}
+
+)
+```
+
+使用$mul乘除數字欄位
+
+清除欄位 : $unset
+```
+
+collection.update_one({
+	"email":"test@com"
+	},
+	{
+		"$unset":{
+			"level":"4"
+		}
+	}
+
+)
+```
+
+
+##### 取得更新的結果
+
+```
+
+collection=db.website
+
+res = collection.update_one({
+	"email":"test@com"
+	},
+	{
+		"$set":{
+			"password":"testtest"
+		}
+	}
+
+# print有幾筆符合條件
+print(res.matched_count)
+# print有幾筆被修改了
+print(res.modified_count)
+```
+
+
+### mongodb刪除資料
+
+
+##### 刪除單筆
+集合.delete_one(篩選條件)
+
+```
+collection.delete_one({
+	"level":1
+})
+```
+
+
+##### 刪除多筆
+集合.delete_many(篩選條件)
+
+取得被刪除資料的資訊
+```
+ret = collection.delete_many({
+	"level":1
+})
+
+# 有幾筆被刪除
+print(ret.deleted_count)
+
+```
+
+
+### mongodb 篩選, 排序資料
+
+
+##### 篩選多筆
+集合.find(篩選條件)
+```
+cursor=collection.find({
+	"level":3
+})
+
+print(cursor)
+
+for doc in cursor:
+	print(doc)
+```
+
+##### 複合篩選條件
+使用$and結合多個條件來篩選
+```
+
+cursor=collection.find({
+
+	"$and":[
+		{"email": "test@test.com"},
+		{"passwd": "123456"},
+	]
+})
+
+for doc in cursor:
+	print(doc)
+```
+
+使用$or則其一條件滿足即可
+
+##### 排序篩選結果
+集合.find(篩選條件, sort=排序方式)
+
+找所有資料, 由小到大排序
+```
+cursor=collection.find({}, sort=[
+	("level", pymongo.ASCENDING)
+])
+
+for doc in cursor:
+	print(doc)
+```
+
+pymonge.DESCENDING則會就大到小的方式排序
+
+
+# 會員系統
+

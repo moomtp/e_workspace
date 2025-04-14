@@ -236,6 +236,16 @@
         "state": {
           "type": "review-queue-list-view",
           "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "45f9e3999e37cca8",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
           "icon": "SpacedRepIcon",
           "title": "筆記復習序列"
         }
@@ -257,7 +267,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5ee63a7258eda49",
+  "active": "45f9e3999e37cca8",
   "lastOpenFiles": [
     "kubernete/kubectl cmd.md",
     "backend/note.md",
