@@ -131,6 +131,10 @@ kubectl replace -f FILENAME
 
 kubectl replace -f nginx.yaml
 
+# 更改configMap的資料
+kubectl create configmap sites-enabled --from-file=/home/e/my-nginx/conf/sites-enabled --dry-run=client -o yaml | kubectl apply -f -
+
+
 ```
 
 Debug與交互
