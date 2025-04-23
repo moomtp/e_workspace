@@ -95,12 +95,14 @@
             "id": "35264d6a1f63b652",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "kubernete/mutipass.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "mutipass"
             }
           }
         ],
@@ -708,7 +710,7 @@
             }
           }
         ],
-        "currentTab": 49
+        "currentTab": 15
       },
       {
         "id": "12fe96582aa0e06c",
@@ -720,7 +722,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "nginx.md",
+                "file": "kubernete/mutipass.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -748,7 +750,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "nginx 的關聯圖"
+              "title": "mutipass 的關聯圖"
             }
           }
         ]
@@ -771,8 +773,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5936146e9ac9625",
+  "active": "35264d6a1f63b652",
   "lastOpenFiles": [
+    "backend/note.md",
+    "backend",
     "pic",
     "nginx.md",
     "kubernete/kubectl cmd.md",
@@ -820,8 +824,6 @@
     "linux/img/Pasted image 20231002141609.png",
     "linux/img/lec03",
     "linux/img",
-    "linux",
-    "論文",
-    "知識圖譜"
+    "linux"
   ]
 }
