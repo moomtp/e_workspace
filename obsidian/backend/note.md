@@ -600,3 +600,170 @@ pymonge.DESCENDING則會就大到小的方式排序
 
 # 會員系統
 
+### 網站後端與資料庫建製
+
+之後的檔案都要都放在專案資料夾中
+
+載入與建置
+```
+import pymongo
+client=pymongo.MongoClient("連線網址")
+db=client.member_system
+
+from flask import *
+app=Flask(
+	__name__,
+	static_folder="public",
+	static_url_path
+)
+
+app.secret_key="密碼"
+app.run(port=3000)
+
+```
+
+
+### 建立前端頁面
+
+前端是最靠近使用者的，設計時站在使用者的角度去設計
+
+後端接口
+```
+@app.route("/")
+def index();
+	return render_template("index.html")
+
+@app.route("/member")
+def member():
+	if "nickname" in session:
+		return render_template("member.html")
+
+	else:
+		return redirect("/")
+
+@app.route("/error")
+def member():
+	mes=req.args.get("msg", "錯誤訊息")
+	return render_template("error.html", {"msg":msg})
+```
+
+前端
+``` templates/index.html
+
+<html lang='en'>
+<head>
+	 <title>會員系統</title>
+</head>
+
+<body>
+	<h2>會員系統首頁</h2>
+	<h3>會員註冊</h3>
+	<form action="/signup" method="POST">
+		暱稱 <input type"text" name="nickname" /><br/>
+		信箱 <input type"text" name="mail" /><br/>
+		密碼 <input type"password" name="passwd" /><br/>
+	<button> 註冊 </button>
+	 </form>
+	<h3>會員登入</h3>
+	<form action="/signup" method="POST">
+		信箱 <input type"text" name="mail" /><br/>
+		密碼 <input type"password" name="passwd" /><br/>
+	<button> 登入 </button>
+	 </form>
+</body>
+```
+
+``` templates/member.html
+
+<html lang='en'>
+<head>
+	 <title>會員系統</title>
+</head>
+
+<body>
+	<h2>會員頁面頁</h2>
+	<div> <a herf="signout">登出 </a></div>
+</body>
+```
+
+
+``` templates/error.html
+
+<html lang='en'>
+<head>
+	 <title>會員系統</title>
+</head>
+
+<body>
+	<h2>錯誤頁面</h2>
+	<div> 發生錯誤：{{msg}} </div>
+</body>
+```
+
+localhost/error?msg=帳號密碼錯誤
+
+這樣就可以顯示在錯誤頁面上
+
+
+### 會員註冊功能
+
+多一個signup的後端服務, 處理註冊相關的服務
+
+```
+@app.route("/signup", method=["POST"])
+def signup():
+	nickname=req.form["nickname"]
+	email=req.form["email"]
+	password=req.form["passwd"]
+	
+	collection=db.user
+	res = collection.find_one({
+		"email":email
+	})
+	if res != None:
+		 return redirect("/error?msg=信箱已被註冊")
+
+	collection.insert_one({
+		"nickname" : nickname,
+		"email" : email,
+		"password" : passwd,
+	})
+	print("註冊成功")
+	return redirect("/")
+	
+```
+
+
+### 會員登入, 登出
+
+登出流程
+使用者登出->請求轉到signup->刪除session的會員資訊
+
+登入
+```
+@app.route("/signin", method=["POST"])
+def signin():
+	email=req.form["email"]
+	password=req.form["passwd"]
+	
+	collection=db.user
+	res = collection.find_one({"$and":[
+		{"email":email},
+		{"password":password},
+	]
+	})
+	if res != None:
+		 return redirect("/error?msg=帳號或密碼輸入錯誤")
+
+	# 在session中加入已登入的資訊session["nickname"]=res["nickname"]
+
+	return redirect("/member")
+```
+
+登出
+```
+@app.route("/signout")
+def signout():
+	del session["nickname"]
+	return ("/")
+```
