@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Ch6 Network Relibility.md",
+                "file": "Network/Ch6 Reliable Transmission.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ch6 Network Relibility"
+              "title": "Ch6 Reliable Transmission"
+            }
+          },
+          {
+            "id": "19f1b89db323fafa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network/Ch7 Internetworking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ch7 Internetworking"
+            }
+          },
+          {
+            "id": "e22b655412c5e729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ch8 tranport layer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ch8 tranport layer"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -155,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "SQL.md",
+            "file": "Ch8 tranport layer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -589,6 +617,96 @@
         "state": {
           "type": "review-queue-list-view",
           "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "c6c1d7e38f5d8088",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "eeec1c9c43c66756",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "d170c0d49e0bdce7",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "adf8a0fdfdd2e304",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "ff8772331aa32f74",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "08d65e1f319b4c70",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "c8a437114ebd0295",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "25d5f59a8008e427",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "3e66f094fbbbda98",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
           "icon": "SpacedRepIcon",
           "title": "筆記復習序列"
         }
@@ -609,10 +727,12 @@
       "obsidian-spaced-repetition:復習卡片": false
     }
   },
-  "active": "7a4ed28908828432",
+  "active": "e22b655412c5e729",
   "lastOpenFiles": [
+    "Network/Ch7 Internetworking.md",
+    "Ch8 tranport layer.md",
+    "Network/Ch6 Reliable Transmission.md",
     "Network/Ch5 Virtual LANs.md",
-    "Network/Ch6 Network Relibility.md",
     "Network/Ch4 spanning tree.md",
     "Network/Ch3 Wireless net.md",
     "Network/Ch2.md",
