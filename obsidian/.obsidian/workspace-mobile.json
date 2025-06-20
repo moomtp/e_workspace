@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch8 tranport layer.md",
+                "file": "Network/Ch8 tranport layer.md",
                 "mode": "source",
                 "source": false
               },
@@ -91,8 +91,7 @@
               "title": "Ch8 tranport layer"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +182,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Ch8 tranport layer.md",
+            "file": "Network/Ch8 tranport layer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -707,6 +706,56 @@
         "state": {
           "type": "review-queue-list-view",
           "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "06bcfd3a6b4d4d23",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "4647aaa079526f3b",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "5689905443ec6448",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "aceb0c2bffad59d4",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "dad70468f2becefc",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
           "icon": "SpacedRepIcon",
           "title": "筆記復習序列"
         }
@@ -727,14 +776,15 @@
       "obsidian-spaced-repetition:復習卡片": false
     }
   },
-  "active": "e22b655412c5e729",
+  "active": "096515262b9a273c",
   "lastOpenFiles": [
+    "Network/Ch5 Virtual LANs.md",
+    "Network/Ch3 Wireless net.md",
+    "Network/Ch8 tranport layer.md",
     "Network/Ch7 Internetworking.md",
     "Ch8 tranport layer.md",
     "Network/Ch6 Reliable Transmission.md",
-    "Network/Ch5 Virtual LANs.md",
     "Network/Ch4 spanning tree.md",
-    "Network/Ch3 Wireless net.md",
     "Network/Ch2.md",
     "kubernete/kubectl cmd.md",
     "Network",
