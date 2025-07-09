@@ -4,109 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "852b87f38e4f9ea2",
+        "id": "bb7a1b9bacacf229",
         "type": "tabs",
         "children": [
           {
-            "id": "8b37444c0be61be0",
+            "id": "bd13f68a437e0905",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernete/mutipass.md",
+                "file": "SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mutipass"
+              "title": "SQL"
             }
           },
           {
-            "id": "da9a962ba19dd4c5",
+            "id": "37bf53034d0096b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernete/kubectl cmd.md",
+                "file": "database/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kubectl cmd"
-            }
-          },
-          {
-            "id": "2b7d41d28d169b87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubernete/kubectl cmd.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "kubectl cmd"
-            }
-          },
-          {
-            "id": "17439067ca2777d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "other cmd.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "other cmd"
-            }
-          },
-          {
-            "id": "d9037d4d305e5bd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubernete/架構.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "架構"
-            }
-          },
-          {
-            "id": "5b25b68c8f760531",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nginx.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nginx"
-            }
-          },
-          {
-            "id": "35264d6a1f63b652",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubernete/mutipass.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mutipass"
+              "title": "Introduction"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "檔案瀏覽器"
+              "title": "Files"
             }
           },
           {
@@ -139,7 +69,7 @@
               "type": "starred",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -170,7 +100,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "標籤"
+              "title": "Tags"
             }
           }
         ]
@@ -266,7 +196,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "New tab"
             }
           },
           {
@@ -276,7 +206,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "New tab"
             }
           },
           {
@@ -286,7 +216,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -296,7 +226,7 @@
               "type": "BC-matrix",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -306,7 +236,7 @@
               "type": "BC-tree",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -316,7 +246,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -326,7 +256,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -336,7 +266,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -346,7 +276,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -356,7 +286,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -365,8 +295,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -376,7 +306,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -386,7 +316,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -396,7 +326,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -406,7 +336,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -416,7 +346,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -426,7 +356,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -436,7 +366,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -446,7 +376,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -456,7 +386,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -466,7 +396,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -476,7 +406,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -486,7 +416,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -496,7 +426,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -506,7 +436,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -516,7 +446,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -526,7 +456,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -536,7 +466,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -546,7 +476,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -556,7 +486,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -566,7 +496,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -576,7 +506,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -586,7 +516,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -596,7 +526,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -606,7 +536,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -616,7 +546,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -626,7 +556,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -636,7 +566,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -646,7 +576,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -656,7 +586,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -666,7 +596,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -676,7 +606,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -686,7 +616,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -695,8 +625,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "筆記復習序列"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -705,12 +635,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "09c12b33b4c2f55a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
-              "title": "筆記復習序列"
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 50
       },
       {
         "id": "12fe96582aa0e06c",
@@ -722,7 +662,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kubernete/mutipass.md",
+                "file": "database/Introduction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -750,7 +690,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "mutipass 的關聯圖"
+              "title": "Graph of Introduction"
             }
           }
         ]
@@ -761,32 +701,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:開啟快速切換": false,
-      "graph:查看關聯圖": false,
-      "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
-      "templates:插入模板": false,
-      "command-palette:開啟命令面板": false,
-      "markdown-importer:開啟 Markdown 格式轉換器": false,
-      "workspaces:管理工作區配置": false,
-      "obsidian-spaced-repetition:復習卡片": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "35264d6a1f63b652",
+  "active": "37bf53034d0096b2",
   "lastOpenFiles": [
+    "SQL.md",
+    "database/Introduction.md",
+    "database",
+    "C_sharp/introduction.md",
+    "kubernete/mutipass.md",
+    "kubernete/kubectl cmd.md",
     "backend/note.md",
     "backend",
     "pic",
     "nginx.md",
-    "kubernete/kubectl cmd.md",
     "other cmd.md",
     "ansible cmd.md",
     "docker.md",
     "kubernete/架構.md",
     "git cmd.md",
     "readme.md",
-    "kubernete/mutipass.md",
     "kubernete/kubenate cmd.md",
     "未命名 1.md",
     "kubernete",
@@ -806,9 +749,6 @@
     "OOAD/Ch13 UML sequence diagram.md",
     "小知識.md",
     "未命名.canvas",
-    "OOAD/Ch6. source code quality.md",
-    "OOAD/Ch7. databbase design and mormalization.md",
-    "OOAD/Ch8. Data-Oriented Models.md",
     "論文/img/Pasted image 20240219203403.png",
     "論文/img",
     "論文/img/Pasted image 20240219204940.png",
@@ -820,7 +760,6 @@
     "論文/img/Pasted image 20240219221611.png",
     "論文/img/Pasted image 20240219221534.png",
     "論文/img/Pasted image 20240219204139.png",
-    "Untitled",
     "linux/img/Pasted image 20231002141609.png",
     "linux/img/lec03",
     "linux/img",
